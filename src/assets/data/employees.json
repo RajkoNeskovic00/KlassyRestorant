@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "firstName":"Randy",
+        "lastName":"Walker",
+        "position":"Pastry Chef",
+        "image":"chefs-01.jpg"
+    },
+    {
+        "id":2,
+        "firstName":"David",
+        "lastName":"Martin",
+        "position":"Cookie Chef",
+        "image":"chefs-02.jpg"
+    },
+    {
+        "id":3,
+        "firstName":"Peter",
+        "lastName":"Perkson",
+        "position":"Pancake Chef",
+        "image":"chefs-03.jpg"
+    }
+]

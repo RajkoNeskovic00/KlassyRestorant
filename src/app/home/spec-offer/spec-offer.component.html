@@ -1,0 +1,33 @@
+<section class="section" id="menu">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="section-heading">
+                    <h6>Our Menu Today</h6>
+                    <h2>Our products are on sale today</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="container">
+    <div class="row">
+            <div class="item col-sm-3" *ngFor="let m of meals" >
+                <div class='card' >
+                    <div class="price1">
+                        <h6><del>{{m.price | currency}}</del>&nbsp;<i class="fa-solid fa-arrow-right-long"></i>&nbsp;<span>{{discountForMeal(m.price,m.discount) | currency }}</span></h6>
+                    </div>
+                    <img src="assets/images/menu-item-0{{m.id}}.jpg" alt="{{m.mealName}}">
+                    <div class='info'>
+                      <h1 class='title'>{{m.mealName | uppercase}}</h1>
+                      <p class='description'>{{m.description}}</p>
+                      <div class="main-text-button">
+                          <div class="scroll-to-section"><a href="/reservation">Make Reservation <i class="fa fa-angle-down"></i></a></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
