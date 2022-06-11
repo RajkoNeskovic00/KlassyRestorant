@@ -1,0 +1,17 @@
+[
+    {
+        "id":1,
+        "name":"Breakfast",
+        "image":"tab-icon-01.png"
+    },
+    {
+        "id":2,
+        "name":"Lunch",
+        "image":"tab-icon-02.png"
+    },
+    {
+        "id":3,
+        "name":"Dinner",
+        "image":"tab-icon-03.png"
+    }
+]
